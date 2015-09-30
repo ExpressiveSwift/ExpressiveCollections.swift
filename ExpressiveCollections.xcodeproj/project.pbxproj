@@ -8,6 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		430F0D6D1BB0B22200F8B30A /* ExpressiveCollections.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 430F0D621BB0B22100F8B30A /* ExpressiveCollections.framework */; settings = {ASSET_TAGS = (); }; };
+		43A6B8731BBC893100824E48 /* ATDiff.h in Headers */ = {isa = PBXBuildFile; fileRef = 43A6B8711BBC893100824E48 /* ATDiff.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43A6B8741BBC893100824E48 /* ATDiff.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A6B8721BBC893100824E48 /* ATDiff.m */; settings = {ASSET_TAGS = (); }; };
+		43A6B8791BBC8BFF00824E48 /* NSArray+ATExpressiveCollections.h in Headers */ = {isa = PBXBuildFile; fileRef = 43A6B8751BBC8BFF00824E48 /* NSArray+ATExpressiveCollections.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43A6B87A1BBC8BFF00824E48 /* NSArray+ATExpressiveCollections.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A6B8761BBC8BFF00824E48 /* NSArray+ATExpressiveCollections.m */; settings = {ASSET_TAGS = (); }; };
+		43A6B87B1BBC8BFF00824E48 /* NSDictionary+ATExpressiveCollections.h in Headers */ = {isa = PBXBuildFile; fileRef = 43A6B8771BBC8BFF00824E48 /* NSDictionary+ATExpressiveCollections.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43A6B87C1BBC8BFF00824E48 /* NSDictionary+ATExpressiveCollections.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A6B8781BBC8BFF00824E48 /* NSDictionary+ATExpressiveCollections.m */; settings = {ASSET_TAGS = (); }; };
+		43A6B8841BBC8C2100824E48 /* NSArrayFilteringTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A6B87D1BBC8C2100824E48 /* NSArrayFilteringTests.m */; settings = {ASSET_TAGS = (); }; };
+		43A6B8851BBC8C2100824E48 /* NSArrayGroupingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A6B87E1BBC8C2100824E48 /* NSArrayGroupingTests.m */; settings = {ASSET_TAGS = (); }; };
+		43A6B8861BBC8C2100824E48 /* NSArrayMappingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A6B87F1BBC8C2100824E48 /* NSArrayMappingTests.m */; settings = {ASSET_TAGS = (); }; };
+		43A6B8871BBC8C2100824E48 /* NSArrayMultiInstanceGroupingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A6B8801BBC8C2100824E48 /* NSArrayMultiInstanceGroupingTests.m */; settings = {ASSET_TAGS = (); }; };
+		43A6B8881BBC8C2100824E48 /* NSArrayOrderingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A6B8811BBC8C2100824E48 /* NSArrayOrderingTests.m */; settings = {ASSET_TAGS = (); }; };
+		43A6B8891BBC8C2100824E48 /* NSArraySearchingTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A6B8821BBC8C2100824E48 /* NSArraySearchingTests.m */; settings = {ASSET_TAGS = (); }; };
+		43A6B88A1BBC8C2100824E48 /* NSDictionaryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A6B8831BBC8C2100824E48 /* NSDictionaryTests.m */; settings = {ASSET_TAGS = (); }; };
+		43A6B88C1BBC8E1D00824E48 /* ExpressiveCollections.h in Headers */ = {isa = PBXBuildFile; fileRef = 43A6B88B1BBC8E1D00824E48 /* ExpressiveCollections.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		43D6A8941BB20C9800296B03 /* CollectionOperators.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D6A8911BB20C9800296B03 /* CollectionOperators.swift */; settings = {ASSET_TAGS = (); }; };
 		43D6A8951BB20C9800296B03 /* IndexedArray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D6A8921BB20C9800296B03 /* IndexedArray.swift */; settings = {ASSET_TAGS = (); }; };
 		43D6A8961BB20C9800296B03 /* Algorithms.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43D6A8931BB20C9800296B03 /* Algorithms.swift */; settings = {ASSET_TAGS = (); }; };
@@ -27,6 +41,20 @@
 /* Begin PBXFileReference section */
 		430F0D621BB0B22100F8B30A /* ExpressiveCollections.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ExpressiveCollections.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		430F0D6C1BB0B22200F8B30A /* ExpressiveCollectionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExpressiveCollectionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		43A6B8711BBC893100824E48 /* ATDiff.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATDiff.h; sourceTree = "<group>"; };
+		43A6B8721BBC893100824E48 /* ATDiff.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ATDiff.m; sourceTree = "<group>"; };
+		43A6B8751BBC8BFF00824E48 /* NSArray+ATExpressiveCollections.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+ATExpressiveCollections.h"; sourceTree = "<group>"; };
+		43A6B8761BBC8BFF00824E48 /* NSArray+ATExpressiveCollections.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+ATExpressiveCollections.m"; sourceTree = "<group>"; };
+		43A6B8771BBC8BFF00824E48 /* NSDictionary+ATExpressiveCollections.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary+ATExpressiveCollections.h"; sourceTree = "<group>"; };
+		43A6B8781BBC8BFF00824E48 /* NSDictionary+ATExpressiveCollections.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary+ATExpressiveCollections.m"; sourceTree = "<group>"; };
+		43A6B87D1BBC8C2100824E48 /* NSArrayFilteringTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSArrayFilteringTests.m; sourceTree = "<group>"; };
+		43A6B87E1BBC8C2100824E48 /* NSArrayGroupingTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSArrayGroupingTests.m; sourceTree = "<group>"; };
+		43A6B87F1BBC8C2100824E48 /* NSArrayMappingTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSArrayMappingTests.m; sourceTree = "<group>"; };
+		43A6B8801BBC8C2100824E48 /* NSArrayMultiInstanceGroupingTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSArrayMultiInstanceGroupingTests.m; sourceTree = "<group>"; };
+		43A6B8811BBC8C2100824E48 /* NSArrayOrderingTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSArrayOrderingTests.m; sourceTree = "<group>"; };
+		43A6B8821BBC8C2100824E48 /* NSArraySearchingTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSArraySearchingTests.m; sourceTree = "<group>"; };
+		43A6B8831BBC8C2100824E48 /* NSDictionaryTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDictionaryTests.m; sourceTree = "<group>"; };
+		43A6B88B1BBC8E1D00824E48 /* ExpressiveCollections.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExpressiveCollections.h; sourceTree = "<group>"; };
 		43D6A8911BB20C9800296B03 /* CollectionOperators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionOperators.swift; sourceTree = "<group>"; };
 		43D6A8921BB20C9800296B03 /* IndexedArray.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IndexedArray.swift; sourceTree = "<group>"; };
 		43D6A8931BB20C9800296B03 /* Algorithms.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Algorithms.swift; sourceTree = "<group>"; };
@@ -79,6 +107,13 @@
 				43D6A8931BB20C9800296B03 /* Algorithms.swift */,
 				43D6A8911BB20C9800296B03 /* CollectionOperators.swift */,
 				43D6A8921BB20C9800296B03 /* IndexedArray.swift */,
+				43A6B88B1BBC8E1D00824E48 /* ExpressiveCollections.h */,
+				43A6B8751BBC8BFF00824E48 /* NSArray+ATExpressiveCollections.h */,
+				43A6B8761BBC8BFF00824E48 /* NSArray+ATExpressiveCollections.m */,
+				43A6B8771BBC8BFF00824E48 /* NSDictionary+ATExpressiveCollections.h */,
+				43A6B8781BBC8BFF00824E48 /* NSDictionary+ATExpressiveCollections.m */,
+				43A6B8711BBC893100824E48 /* ATDiff.h */,
+				43A6B8721BBC893100824E48 /* ATDiff.m */,
 			);
 			path = Source;
 			sourceTree = "<group>";
@@ -86,6 +121,13 @@
 		43D6A8971BB20CAE00296B03 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				43A6B87D1BBC8C2100824E48 /* NSArrayFilteringTests.m */,
+				43A6B87E1BBC8C2100824E48 /* NSArrayGroupingTests.m */,
+				43A6B87F1BBC8C2100824E48 /* NSArrayMappingTests.m */,
+				43A6B8801BBC8C2100824E48 /* NSArrayMultiInstanceGroupingTests.m */,
+				43A6B8811BBC8C2100824E48 /* NSArrayOrderingTests.m */,
+				43A6B8821BBC8C2100824E48 /* NSArraySearchingTests.m */,
+				43A6B8831BBC8C2100824E48 /* NSDictionaryTests.m */,
 				43D6A8981BB20CAE00296B03 /* ExpressiveCollectionsTests.swift */,
 			);
 			path = Tests;
@@ -107,6 +149,10 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43A6B8791BBC8BFF00824E48 /* NSArray+ATExpressiveCollections.h in Headers */,
+				43A6B88C1BBC8E1D00824E48 /* ExpressiveCollections.h in Headers */,
+				43A6B8731BBC893100824E48 /* ATDiff.h in Headers */,
+				43A6B87B1BBC8BFF00824E48 /* NSDictionary+ATExpressiveCollections.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -155,6 +201,7 @@
 		430F0D591BB0B22100F8B30A /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0700;
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "Andrey Tarantsov";
 				TargetAttributes = {
@@ -208,7 +255,10 @@
 			files = (
 				43D6A8941BB20C9800296B03 /* CollectionOperators.swift in Sources */,
 				43D6A8951BB20C9800296B03 /* IndexedArray.swift in Sources */,
+				43A6B87A1BBC8BFF00824E48 /* NSArray+ATExpressiveCollections.m in Sources */,
+				43A6B87C1BBC8BFF00824E48 /* NSDictionary+ATExpressiveCollections.m in Sources */,
 				43D6A8961BB20C9800296B03 /* Algorithms.swift in Sources */,
+				43A6B8741BBC893100824E48 /* ATDiff.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +266,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43A6B88A1BBC8C2100824E48 /* NSDictionaryTests.m in Sources */,
+				43A6B8851BBC8C2100824E48 /* NSArrayGroupingTests.m in Sources */,
 				43D6A8991BB20CAE00296B03 /* ExpressiveCollectionsTests.swift in Sources */,
+				43A6B8871BBC8C2100824E48 /* NSArrayMultiInstanceGroupingTests.m in Sources */,
+				43A6B8891BBC8C2100824E48 /* NSArraySearchingTests.m in Sources */,
+				43A6B8841BBC8C2100824E48 /* NSArrayFilteringTests.m in Sources */,
+				43A6B8881BBC8C2100824E48 /* NSArrayOrderingTests.m in Sources */,
+				43A6B8861BBC8C2100824E48 /* NSArrayMappingTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,6 +375,7 @@
 		430F0D771BB0B22200F8B30A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -330,12 +388,14 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.tarantsov.ExpressiveCollections;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		430F0D781BB0B22200F8B30A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -354,17 +414,20 @@
 		430F0D7A1BB0B22200F8B30A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = "Metadata/Info-Tests.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.tarantsov.ExpressiveCollectionsTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		430F0D7B1BB0B22200F8B30A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				COMBINE_HIDPI_IMAGES = YES;
 				INFOPLIST_FILE = "Metadata/Info-Tests.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
