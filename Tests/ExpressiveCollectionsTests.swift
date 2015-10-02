@@ -17,4 +17,30 @@ class ExpressiveCollectionsTests: XCTestCase {
         dict += ["Bar": 2]
     }
 
+    func testSubstitution() {
+        let values = ["<foo>": "bar", "<boz>": "fu"]
+        XCTAssertEqual("foofoofoo".substituteValues(values), "foofoofoo")
+        XCTAssertEqual("foo<foo>foo".substituteValues(values), "foobarfoo")
+        XCTAssertEqual("foo<foo><foo>".substituteValues(values), "foobarbar")
+        XCTAssertEqual("<boz><foo><foo>".substituteValues(values), "fubarbar")
+        XCTAssertEqual(["foo<foo>", "<foo>"].substituteValues(values), ["foobar", "bar"])
+    }
+
+    func testMultivaluedSubstitution() {
+        let values = ["<foo>": ["bar"], "<bar>": [], "<boz>": ["fu", "fubar"]]
+        XCTAssertEqual("foofoofoo".substituteValues(values), ["foofoofoo"])
+        XCTAssertEqual("foo<foo>foo".substituteValues(values), ["foobarfoo"])
+        XCTAssertEqual("foo<foo><foo>".substituteValues(values), ["foobarbar"])
+        XCTAssertEqual("<foo>".substituteValues(values), ["bar"])
+        XCTAssertEqual("<bar>".substituteValues(values), [])
+        XCTAssertEqual("<boz>".substituteValues(values), ["fu", "fubar"])
+    }
+
+    func testMismatchedMultivaluedSubstitution() {
+        let values = ["<foo>": ["bar"], "<bar>": [], "<boz>": ["fu", "fubar"]]
+        // may want to fail on this later
+        XCTAssertEqual("foo<foo><foo><bar>".substituteValues(values), ["foobarbar<bar>"])
+        XCTAssertEqual("foo<foo><foo><boz>".substituteValues(values), ["foobarbar<boz>"])
+    }
+
 }

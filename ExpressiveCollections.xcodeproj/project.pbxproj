@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		43001A891BBDFA1A00ECF2AF /* Substitution.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43001A881BBDFA1A00ECF2AF /* Substitution.swift */; settings = {ASSET_TAGS = (); }; };
 		430F0D6D1BB0B22200F8B30A /* ExpressiveCollections.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 430F0D621BB0B22100F8B30A /* ExpressiveCollections.framework */; settings = {ASSET_TAGS = (); }; };
 		43A6B8731BBC893100824E48 /* ATDiff.h in Headers */ = {isa = PBXBuildFile; fileRef = 43A6B8711BBC893100824E48 /* ATDiff.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		43A6B8741BBC893100824E48 /* ATDiff.m in Sources */ = {isa = PBXBuildFile; fileRef = 43A6B8721BBC893100824E48 /* ATDiff.m */; settings = {ASSET_TAGS = (); }; };
@@ -39,6 +40,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		43001A881BBDFA1A00ECF2AF /* Substitution.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Substitution.swift; sourceTree = "<group>"; };
 		430F0D621BB0B22100F8B30A /* ExpressiveCollections.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ExpressiveCollections.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		430F0D6C1BB0B22200F8B30A /* ExpressiveCollectionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExpressiveCollectionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		43A6B8711BBC893100824E48 /* ATDiff.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ATDiff.h; sourceTree = "<group>"; };
@@ -107,6 +109,7 @@
 				43D6A8931BB20C9800296B03 /* Algorithms.swift */,
 				43D6A8911BB20C9800296B03 /* CollectionOperators.swift */,
 				43D6A8921BB20C9800296B03 /* IndexedArray.swift */,
+				43001A881BBDFA1A00ECF2AF /* Substitution.swift */,
 				43A6B88B1BBC8E1D00824E48 /* ExpressiveCollections.h */,
 				43A6B8751BBC8BFF00824E48 /* NSArray+ATExpressiveCollections.h */,
 				43A6B8761BBC8BFF00824E48 /* NSArray+ATExpressiveCollections.m */,
@@ -255,6 +258,7 @@
 			files = (
 				43D6A8941BB20C9800296B03 /* CollectionOperators.swift in Sources */,
 				43D6A8951BB20C9800296B03 /* IndexedArray.swift in Sources */,
+				43001A891BBDFA1A00ECF2AF /* Substitution.swift in Sources */,
 				43A6B87A1BBC8BFF00824E48 /* NSArray+ATExpressiveCollections.m in Sources */,
 				43A6B87C1BBC8BFF00824E48 /* NSDictionary+ATExpressiveCollections.m in Sources */,
 				43D6A8961BB20C9800296B03 /* Algorithms.swift in Sources */,
