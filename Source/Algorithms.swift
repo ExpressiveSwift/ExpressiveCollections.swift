@@ -127,6 +127,16 @@ public extension RangeReplaceableCollectionType where Generator.Element: Equatab
         }
     }
 
+    /// If `!self.isEmpty`, remove the last element and return it, otherwise
+    /// return `nil`.
+    public mutating func popFirst() -> Generator.Element? {
+        if isEmpty {
+            return nil
+        } else {
+            return removeFirst()
+        }
+    }
+
 }
 
 public extension RangeReplaceableCollectionType where Index : BidirectionalIndexType {
